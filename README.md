@@ -89,6 +89,25 @@ These documents provide valuable insights and guidelines for the successful exec
 ---
 
 
-## Next Steps
+## Datasets
 
+Big Query public dataset:
+
+* [NYC Citi Bike Trips](https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-citi-bike)
+
+* [Census Bureau US Boundaries](https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries)
+
+* [GSOD from the National Oceanic and Atmospheric Administration](https://console.cloud.google.com/marketplace/details/noaa-public/gsod)
+
+* Zip Codes
+
+    * Description: A table with three columns: "zip" (INTEGER, NULLABLE), "borough" (STRING, NULLABLE), and "neighborhood" (STRING, NULLABLE), designed for storing location data.
+
+    * Link: [Cyclistic NYC zip codes](https://docs.google.com/spreadsheets/d/1T6PdeibLCRyZ3PE8i7b1h543nBCXorvzwJUewGr6Pro/edit?usp=sharing&resourcekey=0-_HcUv9TR6KEGaU_wpXBqKQ)
+
+## Target Tables
+
+* The big query for year and summer SQL queries are writen in the repo files:
+    * `year_target_table`
+    * `summer_target_table`
 
